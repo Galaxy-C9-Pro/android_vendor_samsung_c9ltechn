@@ -1,0 +1,1 @@
+vendor_samsung_c9ltechn
