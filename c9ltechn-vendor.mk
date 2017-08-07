@@ -59,6 +59,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/samsung/c9ltechn/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/samsung/c9ltechn/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
-    vendor/samsung/c9ltechn/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so
+    vendor/samsung/c9ltechn/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
