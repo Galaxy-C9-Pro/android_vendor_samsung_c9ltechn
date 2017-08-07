@@ -60,4 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/samsung/c9ltechn/proprietary/vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+    vendor/samsung/c9ltechn/proprietary/vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/samsung/c9ltechn/proprietary/etc/nfc/sec_s3nm81_rfreg.com:system/etc/nfc/sec_s3nm81_rfreg.com \
+    vendor/samsung/c9ltechn/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin
