@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/samsung/c9ltechn/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/c9ltechn/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/c9ltechn/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/c9ltechn/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -24,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/c9ltechn/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/c9ltechn/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/samsung/c9ltechn/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/samsung/c9ltechn/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/c9ltechn/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/c9ltechn/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -42,7 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/samsung/c9ltechn/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/c9ltechn/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
-    vendor/samsung/c9ltechn/proprietary/lib/hw/sensors.MSM8976.so:system/lib/hw/sensors.MSM8976.so \
+    vendor/samsung/c9ltechn/proprietary/lib/hw/sensors.MSM8952.so:system/lib/hw/sensors.MSM8952.so \
     vendor/samsung/c9ltechn/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/samsung/c9ltechn/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/c9ltechn/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -51,10 +53,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
     vendor/samsung/c9ltechn/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c9ltechn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/c9ltechn/proprietary/lib64/hw/sensors.MSM8976.so:system/lib64/hw/sensors.MSM8976.so \
+    vendor/samsung/c9ltechn/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
+    vendor/samsung/c9ltechn/proprietary/lib64/hw/sensors.MSM8952.so:system/lib64/hw/sensors.MSM8952.so \
     vendor/samsung/c9ltechn/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/samsung/c9ltechn/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
     vendor/samsung/c9ltechn/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
+    vendor/samsung/c9ltechn/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
     vendor/samsung/c9ltechn/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/samsung/c9ltechn/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
     vendor/samsung/c9ltechn/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
@@ -213,6 +217,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/samsung/c9ltechn/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
