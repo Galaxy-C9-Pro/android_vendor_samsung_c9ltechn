@@ -39,4 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/samsung/c9ltechn/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
+    vendor/samsung/c9ltechn/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/samsung/c9ltechn/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/c9ltechn/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
+    vendor/samsung/c9ltechn/proprietary/bin/rild:system/bin/rild
