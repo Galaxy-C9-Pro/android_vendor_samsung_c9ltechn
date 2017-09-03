@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
 	vendor/samsung/c9ltechn/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
 	vendor/samsung/c9ltechn/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/samsung/c9ltechn/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin.bin \
+    vendor/samsung/c9ltechn/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/c9ltechn/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c9ltechn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/c9ltechn/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
