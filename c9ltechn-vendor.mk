@@ -26,10 +26,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
 	vendor/samsung/c9ltechn/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
 	vendor/samsung/c9ltechn/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/samsung/c9ltechn/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/c9ltechn/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c9ltechn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/c9ltechn/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/samsung/c9ltechn/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
     vendor/samsung/c9ltechn/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
     vendor/samsung/c9ltechn/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -42,7 +40,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/samsung/c9ltechn/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/samsung/c9ltechn/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/samsung/c9ltechn/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/c9ltechn/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
-    vendor/samsung/c9ltechn/proprietary/bin/rild:system/bin/rild
+    vendor/samsung/c9ltechn/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
