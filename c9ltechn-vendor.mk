@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9ltechn/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/c9ltechn/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/c9ltechn/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/samsung/c9ltechn/proprietary/etc/libnfc-sec.conf:system/etc/libnfc-sec.conf \
     vendor/samsung/c9ltechn/proprietary/etc/camera/msm8976_camera_c9lte.xml:system/etc/camera/msm8976_camera_c9lte.xml \
     vendor/samsung/c9ltechn/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/samsung/c9ltechn/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
